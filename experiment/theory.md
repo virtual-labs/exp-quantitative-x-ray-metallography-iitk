@@ -8,6 +8,7 @@ Electrons that emerge from the electron source (LaB6, Field emission gun.,) are 
 <br>
 
 <image src="images\Picture2.png">
+
 Fig 3. Electron probe microanalysis (EPMA) results of the sintered pellet of TiZrNbCrBC ceramic a) BSE image b) B, c) C, d) Cr, e) Nb, f) Ti, and g) Zr.
 
 
