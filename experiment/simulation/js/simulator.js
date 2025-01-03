@@ -239,22 +239,26 @@ $("#mslider").slider({
             case 0:
                 zoomLevel = 1; // Normal size
                 mag = "0";
+                showToast(`Magnification set to 0`);
                 break;
             case 1:
                 zoomLevel = 1.5; // Light zoom
                 mag = "L";
+                showToast(`Magnification set to Low`);
                 break;
             case 2:
                 zoomLevel = 2; // Higher zoom
                 mag = "H";
+                showToast(`Magnification set to High`);
                 break;
             case 3:
                 zoomLevel = 3; // Very high zoom
                 mag = "VH";
+                showToast(`Magnification set to Very High`);
                 break;
         }
         mhandle.text(mag);
-        showToast(`Magnification set to ${mag}`);
+        // showToast(`Magnification set to ${mag}`);
         
         // Apply zoom to the currently visible image
         $(".zoomable:visible").css("transform", `scale(${zoomLevel})`);
@@ -534,14 +538,19 @@ function drawBeam() {
         // Determine the image ID based on the av and vac values
         if (av === 15 && vac === 1) {
             imgId = "#outImage1";
+            showToast(" Image of Titanium ions Generated successfully", 2);
         } else if (av === 15 && vac === 2) {
             imgId = "#outImage2";
+            showToast(" Image of Boron ions Generated successfully", 2);
         } else if (av === 16 && vac === 1) {
             imgId = "#outImage3";
+            showToast(" Image of carbon ions Generated successfully", 2);
         } else if (av === 17 && vac === 1) {
             imgId = "#outImage6 ";
+            showToast(" Image of chromium  ions Generated successfully", 2);
         } else if (av === 17 && vac === 2) {
             imgId = "#outImage5";
+            showToast(" Image of Zirconium  ions Generated successfully", 2);
         }
             // $("#outImage1").hide();
             // $("#outImage2").hide();
@@ -560,7 +569,7 @@ function drawBeam() {
             //     }
             // }
 
-            showToast("Image 3 Generated successfully", 2);
+            // showToast(" Image of Titanium ions Generated successfully", 2);
 
         }
     }, 2000);
