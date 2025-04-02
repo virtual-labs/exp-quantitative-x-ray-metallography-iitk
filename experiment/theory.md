@@ -1,4 +1,4 @@
-<image src="images\img_1.png"><br><br>
+<image src="images\img_1.png"><image src="images\img_2.png"><br><br>
 
 <b>Electron Probe Microanalyzer (EPMA) </b> <br><br>
 
@@ -61,7 +61,9 @@ Quantitative X-ray microanalysis aims to determine the composition of a sample b
 
 Finally, the gathered chemical data is interpreted within a textural context. An example of a high-entropy ceramic analysis is shown in Figure 3.<br><br>
 
-<image src="images\Picture2.png">
+<image src="images\Picture2.png"> <br><br>
+
+Fig 3. Electron probe microanalysis (EPMA) results of the sintered pellet of TiZrNbCrBC ceramic a) BSE image b) B, c) C, d) Cr, e) Nb, f) Ti, and g) Zr.
 
 
 
