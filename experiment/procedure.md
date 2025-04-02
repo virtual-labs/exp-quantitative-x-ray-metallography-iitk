@@ -19,6 +19,7 @@ Close the chamber securely and start the vacuum pump to remove air and create a 
 <b>4.	Wait Until Pressure Reaches ~10⁻⁴ Pa :</b> Ensure a proper vacuum level is achieved for stable electron beam operation.<br>
 
 The chamber must reach an ultra-high vacuum (typically 10<sup>-4</sup> to 10<sup>−6</sup> Pa) to ensure minimal electron scattering and to improve imaging resolution and signal-to-noise ratio. The required vacuum level depends on the microscope type :<br>
+
 •	SEM : Usually operates in the range of 10−3to 10−5 Pa.<br>
 •	EPMA : Requires higher vacuum levels, often around 10−4 to 10−6 Pa for accurate quantitative analysis.<br>
 Wait until the required vacuum level is reached before proceeding.<br><br>
@@ -33,8 +34,10 @@ Once the desired vacuum level is achieved, activate the electron beam. Adjust th
 •	>20 kV : Used for deeper penetration and enhanced X-ray generation in EPMA.<br><br>
 
 
-<b>6.	Magnify a Specific Location :</b> Adjust magnification and focus on the area of interest.<br>
-Use low magnification to find the area of interest. Increase magnification gradually based on the level of detail needed :<br>
+<b>6.	Magnify a Specific Location :</b> Adjust magnification and focus on the area of interest. <br>
+
+Use low magnification to find the area of interest. Increase magnification gradually based on the level of detail needed : <br>
+
 •	Low magnification (10x–500x) : Ideal for navigation and wide-area observation.<br>
 •	For structural investigation : medium magnification (500x–5,000x) is utilized.<br>
 •	High magnification (>5,000x) : Perfect for imaging at the nanoscale and fine structures.<br><br>
