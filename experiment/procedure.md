@@ -20,8 +20,8 @@ Close the chamber securely and start the vacuum pump to remove air and create a 
 
 The chamber must reach an ultra-high vacuum (typically 10<sup>-4</sup> to 10<sup>−6</sup> Pa) to ensure minimal electron scattering and to improve imaging resolution and signal-to-noise ratio. The required vacuum level depends on the microscope type :<br>
 
-•	SEM : Usually operates in the range of 10−3to 10−5 Pa.<br>
-•	EPMA : Requires higher vacuum levels, often around 10−4 to 10−6 Pa for accurate quantitative analysis.<br>
+•	SEM : Usually operates in the range of 10<sup>−3</sup> to 10<sup>−5</sup> Pa.<br>
+•	EPMA : Requires higher vacuum levels, often around 10<sup>−4</sup> to 10<sup>−6</sup> Pa for accurate quantitative analysis.<br>
 Wait until the required vacuum level is reached before proceeding.<br><br>
 
 
