@@ -45,7 +45,7 @@ Use low magnification to find the area of interest. Increase magnification gradu
 
 <b>7.	Capture an Image or Perform Compositional Mapping :</b> Choose between imaging (e.g., SE, BSE) or elemental analysis (e.g., EDS, WDS).<br>
 
-•	For imaging: Choose between Secondary Electron (SE) mode for surface topography or Backscattered Electron (BSE) mode for compositional contrast.<br>
+•	For imaging : Choose between Secondary Electron (SE) mode for surface topography or Backscattered Electron (BSE) mode for compositional contrast.<br>
 •	For compositional analysis : Use Energy Dispersive Spectroscopy (EDS) for qualitative or semi-quantitative elemental analysis, or Wavelength Dispersive Spectroscopy (WDS) for higher accuracy in quantitative analysis. <br>
 •	For mapping : Perform elemental mapping to visualize element distribution across the sample.<br><br>
 
