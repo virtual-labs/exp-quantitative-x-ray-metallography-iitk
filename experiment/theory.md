@@ -44,9 +44,10 @@ The Rowland Circle is a fundamental concept in WDS, where the sample, diffractin
 | **Peak Overlap**               | Higher                                 | Lower due to better spectral resolution|
 | **Quantification Accuracy**    | Moderate                               | High due to fewer matrix effects       |
 
-
+<br>
 <b>Quantitative Analysis and Matrix Corrections: </b> <br>
 Quantitative X-ray microanalysis aims to determine the composition of a sample by measuring the intensity of characteristic X-ray emissions. The X-rays detected are used to generate a spectrum, which is compared with reference spectra to determine the chemical composition However, direct intensity measurements must be corrected for matrix effects, which include atomic number effects (Z), absorption (A), and fluorescence (F).<br>
+
 •	Penetration factor: Accounts for electron backscattering (R) and stopping power (S)<br>
 •	Absorption: Considers X-ray attenuation within the sample.<br>
 •	Secondary fluorescence: Corrects for additional X-ray emissions caused by one element exciting another.<br>
@@ -94,6 +95,7 @@ Electrons that emerge from the electron source (LaB6, Field emission gun.,) are 
 <image src="images\Picture2.png">
 
 Fig 3. Electron probe microanalysis (EPMA) results of the sintered pellet of TiZrNbCrBC ceramic a) BSE image b) B, c) C, d) Cr, e) Nb, f) Ti, and g) Zr.-->
+
 
 
 
