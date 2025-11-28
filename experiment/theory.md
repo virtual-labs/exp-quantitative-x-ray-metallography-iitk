@@ -1,5 +1,3 @@
-<image src="images\img_1.png"><image src="images\img_2.png"><br><br>
-
 <b>Electron Probe Microanalyzer (EPMA): </b> <br>
 An Electron Probe Microanalyzer (EPMA) is an electron beam instrument primarily used for the in situ chemical examination of solid materials. The electron optics of EPMA allow for much higher resolution compared to visible-light lenses, enabling a spot size of a few microns. This high resolution makes EPMA a powerful tool for material analysis.<br>
 
@@ -9,7 +7,8 @@ EPMA can be equipped with a variety of detectors, including :<br>
 •	Secondary Electron Detectors<br>
 •	Backscattered Electron Detectors<br>
 
-A schematic of EPMA is shown in Figure 1.<br>
+A schematic of EPMA is shown in Figure 1.<br><br>
+<image src="images\img_1.png"><br>
 
 <b>Electron Beam Interaction in EPMA :</b> <br>
 Electrons from the electron source (such as LaB₆ or Field Emission Gun) are accelerated and focused onto the sample using a series of electromagnetic lenses. The interaction of the electron beam with the sample results in several effects :<br>
@@ -31,7 +30,9 @@ However, in multi-element materials, X-ray peaks can overlap due to Close energy
 <b>Wavelength Dispersive Spectrometry (WDS) and Rowland Circle: </b> <br>
 The key advantage of EPMA over SEM is the use of Wavelength Dispersive Spectrometer (WDS), which provides higher spectral resolution compared to EDS. In WDS, X-rays emitted from the sample interact with a diffracting crystal of known d-spacing, which selectively diffracts X-rays of specific wavelengths (λ), and these diffracted X-rays are collected by a detector. To ensure proper detection of X-rays, all three components (sample, diffracting crystal and detector) are placed in a specific geometry known as Rowland Circle.<br>
 
-The Rowland Circle is a fundamental concept in WDS, where the sample, diffracting crystal, and detector are positioned on a curved geometric arrangement to ensure the distance between the sample and diffracting crystal, and diffracting crystal and detector, which results in only X-rays satisfying Bragg’s Law are detected. This technique enhances spectral resolution and reduces peak overlap, making WDS superior for precise compositional analysis. Figure 2 illustrates this setup and table 1 shows Comparison of EDS and WDS.<br>
+The Rowland Circle is a fundamental concept in WDS, where the sample, diffracting crystal, and detector are positioned on a curved geometric arrangement to ensure the distance between the sample and diffracting crystal, and diffracting crystal and detector, which results in only X-rays satisfying Bragg’s Law are detected. This technique enhances spectral resolution and reduces peak overlap, making WDS superior for precise compositional analysis. <br>
+Figure 2 illustrates this setup and table 1 shows Comparison of EDS and WDS.<br>
+<image src="images\img_2.png"><br><br>
 
 <b>Table 1. Comparison of EDS and WDS : </b><br>
 
@@ -95,6 +96,7 @@ Electrons that emerge from the electron source (LaB6, Field emission gun.,) are 
 <image src="images\Picture2.png">
 
 Fig 3. Electron probe microanalysis (EPMA) results of the sintered pellet of TiZrNbCrBC ceramic a) BSE image b) B, c) C, d) Cr, e) Nb, f) Ti, and g) Zr.-->
+
 
 
 
