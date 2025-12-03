@@ -1,1 +1,1 @@
-Studying the fundamentals of electron probe micro analyser and wavelength dispersive spectroscopy
+Studying the fundamentals of electron probe micro analyzer and wavelength dispersive spectroscopy
