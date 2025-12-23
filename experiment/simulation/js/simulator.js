@@ -127,21 +127,8 @@ $("#load_sample").click(function () {
 
 // toast message function
 function showToast(msg, type = 0) {
-    tWrapper.append(`<div id="t${ti++}" class="toast${type == 1 ? " danger" : type == 2 ? " success" : ""
-        }" role="alert" aria-live="assertive" aria-atomic="true">
-    <div class="toast-header">
-        <svg class="bd-placeholder-img rounded mr-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="${type == 1 ? "#ff0000" : type == 2 ? "#31a66a" : "#007aff"
-        }" /></svg>
-        <strong class="mr-auto">Notification</strong>
-    </div>
-    <div class="toast-body">
-        ${msg}
-</div>
-</div>`);
-    $(`#t${ti - 1}`).toast({
-        delay: 5500,
-    });
-    $(`#t${ti - 1}`).toast("show");
+    // Toast disabled — but flow continues
+    console.log("Toast suppressed:", msg);
 }
 // end of toast msg function
 
@@ -629,7 +616,8 @@ imageX.addEventListener("drop", (e) => {
 
     if (draggedItem === "dragging-b") {
         imageB.style.visibility = "hidden"; // Hide image B when it's dropped
-        imageX.src = "../images/parts/specimen.png"; // Replace image X with the sample holder image
+        imageX.src = "images/parts/specimen.png";
+ // Replace image X with the sample holder image
         item = "ceramic";
         // Enable vacuum setting controls
         showToast("Now Set the Vaccume until 10^-4 Pa");
@@ -650,100 +638,6 @@ imageX.addEventListener("drop", (e) => {
     }
 });
 
-
-
-
-
-// const imageX = document.getElementById("image-x");
-// const imageY = document.getElementById("image-y");
-// // const imageA = document.getElementById("image-a");
-// const imageB = document.getElementById("image-b");
-
-// const removeButton = document.getElementById("toggle id");
-// // const insertButton = document.getElementById("insertButton");
-
-// removeButton.addEventListener("click", () => {
-//     imageX.style.transform = "translateX(0%)"; // Move image X from right to left
-// });
-
-// // imageY.addEventListener("dragstart", (e) => {
-// //     e.dataTransfer.setData("text/plain", "dragging-y"); // Allow image Y to be draggable
-// // });
-
-// // imageA.addEventListener("dragstart", (e) => {
-// //     e.dataTransfer.setData("text/plain", "dragging-a"); // Allow image A to be draggable
-// // });
-
-// imageB.addEventListener("dragstart", (e) => {
-//     e.dataTransfer.setData("text/plain", "dragging-b"); // Allow image B to be draggable
-// });
-
-// imageB.addEventListener("dragover", (e) => {
-//     e.preventDefault();
-// });
-
-// imageX.addEventListener("drop", (e) => {
-//     e.preventDefault();
-//     const draggedItem = e.dataTransfer.getData("text/plain");
-
-//     if (draggedItem === "dragging-b" && isImageYDropped === false) {
-//         imageY.style.visibility = "hidden";
-//         isImageYDropped = true; // Set the flag when image-_ is dropped
-//         item = "zebrafish";
-//         imageX.src = "../images/parts/specimen.png"; // Replace image X with image Z when any image is dropped onto it
-//         if (english) {
-//             type("Now set the vacuum.");
-//             textToSpeech("Now set the vacuum.");
-//         } else {
-//             type("अब वैक्यूम सेट करें|");
-//             textToSpeech("अब वैक्यूम सेट करें", "hi-IN");
-//         }
-//         // $("#insertButton").prop("disabled", false);
-//         $("#vslider").slider("option", "disabled", false);
-//         $("#setvac").prop("disabled", false);
-//     } else if (draggedItem === "dragging-a" && isImageYDropped === false) {
-//         imageA.style.visibility = "hidden";
-//         isImageYDropped = true; // Set the flag when image-_ is dropped
-//         item = "metal";
-//         $("#vslider").slider("option", "disabled", false);
-//         $("#setvac").prop("disabled", false);
-//         imageX.src = "../images/parts/specimen.png"; // Replace image X with image Z when any image is dropped onto it
-//         if (english) {
-//             type("Now set the vacuum.");
-//             textToSpeech("Now set the vacuum.");
-//         } else {
-//             type("अब वैक्यूम सेट करें|");
-//             textToSpeech("अब वैक्यूम सेट करें", "hi-IN");
-//         }
-//         // $("#insertButton").prop("disabled", false);
-//     } else if (draggedItem === "dragging-b" && isImageYDropped === false) {
-//         imageB.style.visibility = "hidden";
-//         isImageYDropped = true; // Set the flag when image-_ is dropped
-//         item = "ceramic";
-//         $("#vslider").slider("option", "disabled", false);
-//         $("#setvac").prop("disabled", false);
-//         imageX.src = "../images/parts/specimen.png"; // Replace image X with image Z when any image is dropped onto it
-//         if (english) {
-//             type("Now set the vacuum.");
-//             textToSpeech("Now set the vacuum.");
-//         } else {
-//             type("अब वैक्यूम सेट करें|");
-//             textToSpeech("अब वैक्यूम सेट करें", "hi-IN");
-//         }
-//         // $("#insertButton").prop("disabled", false);
-//     }
-//     // else{
-//     //     showToast("Please follow the instructions",1);
-//     // }
-// });
-
-// insertButton.addEventListener("click", () => {
-//     imageX.style.transform = "translateX(0%)"; // Move image X back to its original position
-// });
-
-// sample and holder move end
-
-//new beam start(back scattered)
 
 function createBeam(canvasId, startPoint, endPoint, rotationAngle) {
     const canvas = document.getElementById(canvasId);
