@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background-color: #e59d6d;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #444;
+    display: flex;
+    justify-content: center; /* Align items in the center */
+    flex-wrap: wrap; /* This ensures items move to the next line on smaller screens */
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px;
+    display: block;
+}
+
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.quiz .question {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #8fadd5;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+ul li:hover {
+    background-color: rgb(0, 98, 255);
+    
+}
+
+.correct {
+    background-color: rgb(12, 137, 12);
+}
+
+.wrong {
+    background-color: rgb(219, 48, 48);
+}
+
+.answer {
+    display: none;
+    font-weight: bold;
+    margin-top: 10px;
+}

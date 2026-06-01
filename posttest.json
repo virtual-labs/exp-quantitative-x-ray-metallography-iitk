@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "In electron microprobe analysis, which X-ray lines are most commonly used for compositional analysis?",
+      "answers": {
+        "a": "L-lines",
+        "b": "K-lines",
+        "c": "M-lines",
+        "d": "N-lines"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following elements is challenging to analyze using EPMA?",
+      "answers": {
+        "a": "Oxygen (O)",
+        "b": "Silicon (Si)",
+        "c": "Iron (Fe)",
+        "d": "Uranium (U)"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In quantitative X-ray metallography, what role does the 'ZAF correction' play when using an electron microprobe analyzer?",
+      "answers": {
+        "a": "It adjusts for variations in magnification",
+        "b": "It compensates for the interaction of X-rays with the detector",
+        "c": "It corrects for atomic number, absorption, and fluorescence effects",
+        "d": "It enhances the resolution of the X-ray image"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In EPMA, what does the term 'wavelength dispersive spectrometry' (WDS) refer to?",
+      "answers": {
+        "a": "A method to measure the energy of X-rays",
+        "b": "A technique to separate X-rays based on their wavelengths using a diffraction crystal",
+        "c": "A way to increase the spatial resolution of the analysis",
+        "d": "A type of detector used for secondary electrons"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the primary use of Line Scan Imaging in EPMA?",
+      "answers": {
+        "a": "To generate high-resolution surface topography images",
+        "b": "To analyze the variation in elemental composition along a specific line on the sample",
+        "c": "To identify defects in the sample's crystal structure",
+        "d": "To create a 3D model of the sample surface"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
