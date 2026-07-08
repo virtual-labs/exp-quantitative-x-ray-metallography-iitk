@@ -2,29 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the primary purpose of using an electron microprobe analyzer in quantitative X-ray metallography?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To measure the hardness of ceramic materials",
+        "b": "To determine the crystallographic structure of metals",
+        "c": "To analyze the compositional distribution of elements.",
+        "d": "To observe the optical properties of materials"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -33,6 +16,74 @@
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is the most important factor in achieving accurate quantitative compositional analysis using an electron microprobe analyzer?",
+      "answers": {
+        "a": "High magnification of the electron beam",
+        "b": "Calibration of the X-ray detectors",
+        "c": "Use of 10eV electron beams",
+        "d": "Brightness of the electron source"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a limitation of EPMA when analyzing ceramics?",
+      "answers": {
+        "a": "Inability to detect elements with high atomic numbers",
+        "b": "Difficulty in distinguishing between overlapping X-ray peaks from similar elements",
+        "c": "Limited to analyzing only metallic samples",
+        "d": "Requires samples to be in powder form"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why is it crucial to use standards when performing quantitative compositional measurements of ceramics with an electron microprobe analyser?",
+      "answers": {
+        "a": "To compare the crystal structure of different samples",
+        "b": "To ensure the X-ray intensity is high",
+        "c": "To accurately determine the concentration of elements by comparing them with known compositions",
+        "d": "To measure the mechanical properties of the material"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the typical size of the electron beam spot used in an electron microprobe analyzer for compositional analysis?",
+      "answers": {
+        "a": "100 micrometers",
+        "b": "1 millimeter",
+        "c": "1 nanometer",
+        "d": "1 micrometer"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
